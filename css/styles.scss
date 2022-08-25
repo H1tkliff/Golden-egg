@@ -1,0 +1,29 @@
+@import 'nullstyles';
+@import 'general';
+@import '_about';
+@import '_contacts';
+@import '_events';
+@import '_home';
+@import '_menu';
+@import '_order';
+@import '_spec';
+@import '_team';
+@import '_swiper';
+
+
+@font-face {
+    font-family: "Kurale";
+    src: url(/fonts/kurale-v11-latin-regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url(/fonts/open-sans-v34-latin-regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(/fonts/open-sans-v34-latin-700.ttf);
+}
+
+body{
+    font-family: $openSansRegular;
+}
