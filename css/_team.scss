@@ -1,0 +1,36 @@
+.team{
+    background: url(/img/jpg/team-bg.jpg) center/cover no-repeat;
+    padding-top: 40px;
+    padding-bottom: 125px;
+    h6{
+        text-align: center;
+        color: $white;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.5em;
+        font-family: $openSansRegular;
+    }
+}
+.team__container{
+    @include flex(space-between, center);
+    margin-top: 50px;
+}
+.team__text{
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    color: $white;
+}
+.team__img{
+    width: 50%;
+    max-width: 500px;
+    position: relative;
+    .circle{
+        left: 0;
+        transform: translate(-40%, -50%);
+    }
+    img{
+        @include img;
+    }
+}
